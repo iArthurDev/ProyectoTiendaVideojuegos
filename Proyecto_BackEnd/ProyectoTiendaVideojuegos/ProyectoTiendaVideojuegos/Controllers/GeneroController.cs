@@ -50,30 +50,18 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGenero(int id, Genero genero)
         {
-            if (id != genero.IdGenero)
+            var consulta = await _context.Generos.
+                                            FromSqlInterpolated($"EXEC spActualizarGenero {id}, {genero.Nombre}").
+                                            ToListAsync();
+
+            var registroActualizado = consulta.FirstOrDefault();
+
+            if (registroActualizado == null || registroActualizado.IdGenero == -1)
             {
-                return BadRequest();
+                return Conflict("El nombre del género ya existe.");
             }
 
-            _context.Entry(genero).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!GeneroExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return Ok("Registro actualizado correctamente");
         }
 
         // POST: api/Genero
@@ -102,16 +90,18 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGenero(int id)
         {
-            var genero = await _context.Generos.FindAsync(id);
-            if (genero == null)
+            var registro = await _context.Generos.
+                              FromSqlInterpolated($"EXEC spEliminarGenero {id}").
+                              ToListAsync();
+
+            var registroEliminado = registro.FirstOrDefault();
+
+            if (registroEliminado == null)
             {
                 return NotFound();
             }
 
-            _context.Generos.Remove(genero);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return Ok("Registro eliminado");
         }
 
         private bool GeneroExists(int id)

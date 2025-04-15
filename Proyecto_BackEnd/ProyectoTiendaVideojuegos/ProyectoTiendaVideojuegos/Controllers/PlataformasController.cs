@@ -25,7 +25,11 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Plataforma>>> GetPlataformas()
         {
-            return await _context.Plataformas.ToListAsync();
+            var generos = await _context.Generos
+                                .FromSqlRaw("EXEC spConsultarGeneros")
+                                .ToListAsync();
+
+            return generos;
         }
 
         // GET: api/Plataformas/5

@@ -109,6 +109,115 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProyectoTiendaVideojuegos.Controllers.PlataformasController",
+    "Method": "GetPlataforma",
+    "RelativePath": "api/Plataformas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoTiendaVideojuegos.Models.Generos.Plataforma",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoTiendaVideojuegos.Controllers.PlataformasController",
+    "Method": "PostPlataforma",
+    "RelativePath": "api/Plataformas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plataforma",
+        "Type": "ProyectoTiendaVideojuegos.Models.Generos.Plataforma",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoTiendaVideojuegos.Models.Generos.Plataforma",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoTiendaVideojuegos.Controllers.PlataformasController",
+    "Method": "GetPlataforma",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoTiendaVideojuegos.Models.Generos.Plataforma",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoTiendaVideojuegos.Controllers.PlataformasController",
+    "Method": "PutPlataforma",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plataforma",
+        "Type": "ProyectoTiendaVideojuegos.Models.Generos.Plataforma",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoTiendaVideojuegos.Controllers.PlataformasController",
+    "Method": "DeletePlataforma",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoTiendaVideojuegos.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

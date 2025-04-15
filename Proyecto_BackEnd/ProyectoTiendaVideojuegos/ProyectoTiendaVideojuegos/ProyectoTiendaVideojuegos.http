@@ -1,0 +1,6 @@
+@ProyectoTiendaVideojuegos_HostAddress = http://localhost:5078
+
+GET {{ProyectoTiendaVideojuegos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

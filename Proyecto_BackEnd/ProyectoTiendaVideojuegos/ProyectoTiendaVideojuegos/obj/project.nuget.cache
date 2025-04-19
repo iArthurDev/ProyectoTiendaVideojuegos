@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uIuReyyi9n0=",
+  "dgSpecHash": "InKTAoWfb3U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
+  "projectFilePath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldoar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ldoar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

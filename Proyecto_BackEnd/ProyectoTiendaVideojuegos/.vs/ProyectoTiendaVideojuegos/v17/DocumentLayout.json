@@ -1,25 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\",
+  "WorkspaceRootPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\.net\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\controllers\\plataformascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\controllers\\plataformascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\.net\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\github\\iarthurdev\\proyectotiendavideojuegos\\proyecto_backend\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\.net\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\models\\conexion\\dbaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\models\\conexion\\dbaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\.net\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\models\\generos\\plataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\github\\iarthurdev\\proyectotiendavideojuegos\\proyecto_backend\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\models\\generos\\plataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\models\\generos\\plataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\.net\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\github\\iarthurdev\\proyectotiendavideojuegos\\proyecto_backend\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\models\\conexion\\dbaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\models\\conexion\\dbaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|c:\\users\\ldoar\\onedrive\\documentos\\github\\iarthurdev\\proyectotiendavideojuegos\\proyecto_backend\\proyectotiendavideojuegos\\proyectotiendavideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6400CD2-366E-4E0C-BEFF-563A234E1683}|ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj|solutionrelative:proyectotiendavideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +34,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlataformasController.cs",
-              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\PlataformasController.cs",
-              "RelativeDocumentMoniker": "ProyectoTiendaVideojuegos\\Controllers\\PlataformasController.cs",
-              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\PlataformasController.cs",
-              "RelativeToolTip": "ProyectoTiendaVideojuegos\\Controllers\\PlataformasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:09:17.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Plataforma.cs",
-              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
+              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
               "RelativeDocumentMoniker": "ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
-              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
+              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
               "RelativeToolTip": "ProyectoTiendaVideojuegos\\Models\\Generos\\Plataforma.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,24 +47,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
               "RelativeDocumentMoniker": "ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
               "RelativeToolTip": "ProyectoTiendaVideojuegos\\Controllers\\GeneroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T23:18:06.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoTiendaVideojuegos\\Program.cs",
-              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Program.cs",
+              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Program.cs",
               "RelativeToolTip": "ProyectoTiendaVideojuegos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,14 +74,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DbAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
               "RelativeDocumentMoniker": "ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
-              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
+              "ToolTip": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
               "RelativeToolTip": "ProyectoTiendaVideojuegos\\Models\\Conexion\\DbAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T22:44:50.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T22:44:50.477Z"
             }
           ]
         }

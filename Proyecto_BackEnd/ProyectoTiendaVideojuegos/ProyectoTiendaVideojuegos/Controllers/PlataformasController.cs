@@ -25,21 +25,24 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Plataforma>>> GetPlataformas()
         {
-            return await _context.Plataformas.ToListAsync();
+            var plataforma = await _context.Plataformas
+                                .FromSqlRaw("EXEC spConsultarPlataformas")
+                                .ToListAsync();
+
+            return plataforma;
         }
 
         // GET: api/Plataformas/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Plataforma>> GetPlataforma(int id)
         {
-            var plataforma = await _context.Plataformas.FindAsync(id);
+            var resultado = await _context.Plataformas.
+                                    FromSqlInterpolated($"EXEC spConsultarPlataformaPorId").
+                                    ToListAsync();
 
-            if (plataforma == null)
-            {
-                return NotFound();
-            }
+            var plataforma = resultado.FirstOrDefault();
 
-            return plataforma;
+            return plataforma == null? NotFound(): plataforma;
         }
 
         // PUT: api/Plataformas/5
@@ -47,30 +50,18 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPlataforma(int id, Plataforma plataforma)
         {
-            if (id != plataforma.IdPlataforma)
+           var registro = await _context.Plataformas.
+                                FromSqlInterpolated($"EXEC spConsultarPlataformaPorId {id}, {plataforma.Nombre}").
+                                ToListAsync();
+
+            var resultado = registro.FirstOrDefault();
+
+            if (resultado == null || resultado.IdPlataforma == -1)
             {
-                return BadRequest();
+                return Conflict("El nombre de la plataforma ya existe.");
             }
 
-            _context.Entry(plataforma).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PlataformaExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return Ok("Registro actualizado correctamente");
         }
 
         // POST: api/Plataformas
@@ -78,8 +69,11 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpPost]
         public async Task<ActionResult<Plataforma>> PostPlataforma(Plataforma plataforma)
         {
-            _context.Plataformas.Add(plataforma);
-            await _context.SaveChangesAsync();
+            var resultado = await _context.Plataformas.
+                                    FromSqlInterpolated($"EXEC spAgregarPlataforma {plataforma.Nombre}").
+                                    ToListAsync();
+
+            var idGenerado = resultado.FirstOrDefault();
 
             return CreatedAtAction("GetPlataforma", new { id = plataforma.IdPlataforma }, plataforma);
         }
@@ -88,16 +82,18 @@ namespace ProyectoTiendaVideojuegos.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePlataforma(int id)
         {
-            var plataforma = await _context.Plataformas.FindAsync(id);
-            if (plataforma == null)
+            var registro = await _context.Plataformas.
+                              FromSqlInterpolated($"EXEC spEliminarPlataforma {id}").
+                              ToListAsync();
+
+            var registroEliminado = registro.FirstOrDefault();
+
+            if (registroEliminado == null)
             {
                 return NotFound();
             }
 
-            _context.Plataformas.Remove(plataforma);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return Ok("Registro eliminado");
         }
 
         private bool PlataformaExists(int id)

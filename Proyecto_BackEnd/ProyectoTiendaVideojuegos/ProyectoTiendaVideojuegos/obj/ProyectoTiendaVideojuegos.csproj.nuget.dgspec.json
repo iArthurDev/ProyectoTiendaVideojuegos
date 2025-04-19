@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj": {}
+    "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj": {
+    "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
+        "projectUniqueName": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
         "projectName": "ProyectoTiendaVideojuegos",
-        "projectPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
+        "projectPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos.csproj",
         "packagesPath": "C:\\Users\\ldoar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\.net\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\obj\\",
+        "outputPath": "C:\\Users\\ldoar\\OneDrive\\Documentos\\GitHub\\iArthurDev\\ProyectoTiendaVideojuegos\\Proyecto_BackEnd\\ProyectoTiendaVideojuegos\\ProyectoTiendaVideojuegos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
